@@ -18,6 +18,7 @@ import sys
 def introTutorial(V, arr):
     # Write your code here
     searchNum=0
+    #if the value found in the array, return the index number
     for i in range(len(arr)):
         if arr[i]== V:
             searchNum=i
