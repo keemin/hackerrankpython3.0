@@ -17,12 +17,12 @@ def findMedian(arr):
     # Write your code here
     arr.sort()
     mid = len(arr)
-    if n % 2 == 0:
-        median1 = arr[n//2]
-        median2 = arr[n//2 - 1]
+    if mid % 2 == 0:
+        median1 = arr[mid//2]
+        median2 = arr[mid//2 - 1]
         median = (median1 + median2)/2
     else:
-        median = arr[n//2]
+        median = arr[mid//2]
     return(median)
 
 if __name__ == '__main__':
